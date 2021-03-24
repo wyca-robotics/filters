@@ -152,6 +152,8 @@ endif()
 ##############################################################################
 
 # Install libraries
+ament_export_include_directories(include)
+
 install(
   TARGETS mean increment median transfer_function
   ARCHIVE DESTINATION lib
